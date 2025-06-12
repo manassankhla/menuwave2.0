@@ -1,0 +1,22 @@
+{
+  "name": "menuwave-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev api/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.x",
+    "dotenv": "^16.5.0",
+    "express": "^4.x",
+    "mongoose": "^7.x"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "ts-node-dev": "^2.x",
+    "typescript": "^5.x"
+  }
+}
